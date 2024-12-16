@@ -484,6 +484,11 @@ font-weight: 500;
         padding: 0px 34px;
        
     }
+    .skills ul {
+        
+        padding: 0px 17px;
+        
+    }
     .skills ul li{
         list-style: none;
         width: 116%;
