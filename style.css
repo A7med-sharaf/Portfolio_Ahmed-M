@@ -221,6 +221,7 @@ font-weight: 400;
     line-height: 33px;
     padding: 0px 48px;
     margin-bottom: 20px;
+    width: 92%;
 }
 
 .skills ul li{
@@ -355,6 +356,22 @@ flex-direction: column;
     flex-direction: column;
     margin-bottom: 13rem;
 }
+.CONTACT .icon{
+    /* border: 1px solid red; */
+    
+    width: 76%;
+    display: flex
+;
+    gap: 14px;
+}
+.CONTACT .icon i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.CONTACT .icon i:hover{
+    transition: 0.5s;
+    
+}
 .CONTACT .title_CONTACT{
     /* border: 1px solid red; */
     width: 83%;
@@ -474,6 +491,9 @@ font-weight: 500;
     .About_me .text_About{
         padding: 0px 0px 5px 25px;
     }
+    .CONTACT .icon {
+       width: 67%;
+    }
     
 }
 
@@ -518,6 +538,9 @@ font-weight: 500;
     .About_me .text_About{
         padding: 0px 0px 5px 55px;
     }
+    .CONTACT .icon {
+        width: 75%;
+     }
     
 }
 
@@ -554,5 +577,11 @@ font-weight: 500;
         padding: 0px 82px;
        
     }
-    
+    .CONTACT .icon {
+        width: 77%;
+     }
+    /* .skills ul{
+        width: 92%;
+    }
+     */
 }
