@@ -1,0 +1,539 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+    background-color:#f2f2f2;
+}
+body{
+
+    width: 100%;
+    
+    height: 100vh;
+    
+    
+}
+
+
+.containerElement{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+
+.profile{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8fa69c;
+ position: absolute;
+   position: fixed;
+}
+.profile img{
+    width: 50%;
+    object-fit: contain;
+    border: 7.5px solid white;
+    border-radius: 50%;
+    
+    
+}
+
+
+.Contents{
+    position: absolute;
+    
+    left: 0 ;
+    width: 50%;
+    /* height: 1000vh;   */
+    
+ 
+
+}
+
+.Contents button{
+
+    margin: 20px;
+    
+    background-color : #000000;
+    /* outline: none; */
+    border: none;
+}
+.Contents button:hover{
+    
+    /* color:white; */
+    background-color : #f2f2f2;
+    transition: 0.5s;
+    
+}
+.Contents nav{
+    
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.Contents nav img{
+    width: 10%;
+}
+
+.myname{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 13rem;
+    
+}
+.myname h1{
+font-size: 85px;
+font-weight: 400;
+}
+
+.fornt_end{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.fornt_end  h2 {
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 42.8px;
+    letter-spacing: 4px;
+}
+.fornt_end h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42.8px;
+    letter-spacing: 4px;
+}
+
+
+.About_me {
+    padding: 0px 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13rem;
+}
+.About_me .title_About{
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+ .title_About p{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 8.8px;
+}
+ .title_About span{
+    border:1px solid black;
+    height: 0;
+    width: 50%;
+}
+.About_me .text_About{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    padding: 0px 48px;
+    margin-bottom: 20px;
+}
+.phone-img{
+    display: none;
+    
+    width: 50%;
+    object-fit: contain;
+    border-radius: 50%;
+    
+}
+
+/* start skill */
+.skills{
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13rem;
+}
+
+.skills .title_skills{
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+}
+
+.skills .title_skills p{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 8.8px;
+    
+}
+.skills .title_skills span{ 
+    border:1px solid black;
+    height: 0;
+    width: 50%;
+    
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    padding: 0px 48px;
+    margin-bottom: 20px;
+}
+
+.skills ul li{
+    list-style: none;
+    
+}
+
+.skills ul li i{
+    margin-right: 11px;
+}
+/* end skill */
+
+/* start work_expertece */
+.work_expertece{
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13rem;
+    
+}
+.title_work{
+    
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.work_expertece .title_work p{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 8.8px;
+    
+}
+.work_expertece .title_work span{ 
+    border:1px solid black;
+    height: 0;
+    width: 50%;
+    
+}
+.text_word{
+    
+width: 83%;
+display: flex;
+flex-direction: column;
+
+}
+.text_word h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    
+}
+.text_word h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    
+}
+.text_word p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    
+}
+
+
+
+/* end work_expertece */
+
+/* start EDUCATION */
+
+.EDUCATION{
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13rem;
+
+}
+
+.EDUCATION .title_EDUCATION{
+
+    
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.EDUCATION .title_EDUCATION p{
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 8.8px;
+
+}
+
+.EDUCATION .title_EDUCATION span{
+    border:1px solid black;
+    height: 0;
+    width: 50%;
+    
+
+}
+.EDUCATION_step {
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+}
+
+.EDUCATION_step h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+
+}
+.EDUCATION_step p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+
+}
+
+/* end  EDUCATION */
+/* start CONTACT */
+.CONTACT{
+    padding: 0px 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13rem;
+}
+.CONTACT .title_CONTACT{
+    border: 1px solid red;
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.CONTACT .title_CONTACT p{
+   
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 8.8px;
+
+}
+.CONTACT .title_CONTACT span{
+    border:1px solid black;
+    height: 0;
+    width: 50%;
+}
+.CONTACT ul li{
+display: flex;
+align-items: center;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 500;
+    list-style: none;
+    gap: 10px;
+}
+.CONTACT ul{
+    width: 83%;
+border: 1px solid red;
+}
+.CONTACT ul h4{
+    font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.6px;
+}
+/* end CONTACT */
+/* start footer */
+.footer{
+    border: 1px solid red;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* end footer */
+
+@media screen and (max-width: 767px) {
+
+   
+    .profile{
+        display: none;   
+        
+        
+    }
+
+    .Contents{
+        width: 100%;
+        order: 1;
+    }
+    .phone-img{
+     /* display: block; */
+     display: flex;
+     margin: 20px auto;
+     background-color: white;
+     border: 7.5px solid white;
+     /* border-radius: 0%; */
+     
+     
+
+
+    }
+    .phone-img  img{
+        width: 100%;
+        border-radius: 50%;
+        
+    }
+    .Contents nav img {
+        width: 18%;
+    }
+
+    .fornt_end  h2 {
+        font-size: 30px;
+        font-weight: 200;
+        line-height: 42.8px;
+        letter-spacing: 4px;
+    }
+    .fornt_end h3{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 42.8px;
+        letter-spacing: 4px;
+    }
+    .About_me {
+        padding: 0px 20px;
+        
+    }
+    .About_me .text_About{
+        
+        padding: 0px 34px;
+       
+    }
+    .skills ul li{
+        list-style: none;
+        width: 116%;
+    }
+    .About_me .text_About{
+        padding: 0px 0px 5px 25px;
+    }
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+
+   
+    .profile{
+        display: none;   
+        
+        
+    }
+
+    .Contents{
+        width: 100%;
+        order: 1;
+    }
+    .phone-img{
+     /* display: block; */
+     display: flex;
+     margin: 20px auto;
+     background-color: white;
+     border: 7.5px solid white;
+     
+
+
+    }
+    .phone-img  img{
+        width: 100%;
+        border-radius: 50%;
+        
+    }
+    .About_me .text_About{
+        
+        padding: 0px 61px;
+       
+    }
+    .skills ul li{
+        list-style: none;
+        width: 111%;
+    }
+    
+    .About_me .text_About{
+        padding: 0px 0px 5px 55px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+   
+    .profile{
+        display: none;   
+        
+        
+    }
+
+    .Contents{
+        width: 100%;
+        order: 1;
+    }
+    .phone-img{
+     /* display: block; */
+     display: flex;
+     margin: 20px auto;
+     background-color: white;
+     border: 7.5px solid white;
+     
+
+
+    }
+    .phone-img  img{
+        width: 100%;
+        border-radius: 100%;
+    }
+
+    .About_me .text_About{
+        
+        padding: 0px 82px;
+       
+    }
+    
+}
