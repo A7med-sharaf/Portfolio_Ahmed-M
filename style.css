@@ -18,7 +18,20 @@ body{
     
 }
 
-
+.offcanvas-body ul li{
+    list-style: none;
+    margin: 4px 0px;
+}
+.offcanvas-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.offcanvas-body ul li a:hover{
+    transition: 0.1s;
+    color: #657902;
+}
 .containerElement{
     position: relative;
     height: 100vh;
@@ -337,7 +350,7 @@ flex-direction: column;
     margin-bottom: 13rem;
 }
 .CONTACT .title_CONTACT{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 83%;
     display: flex;
     align-items: center;
@@ -367,7 +380,7 @@ font-weight: 500;
 }
 .CONTACT ul{
     width: 83%;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 .CONTACT ul h4{
     font-family: sans-serif;
@@ -379,8 +392,7 @@ border: 1px solid red;
 /* end CONTACT */
 /* start footer */
 .footer{
-    border: 1px solid red;
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
     
