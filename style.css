@@ -18,6 +18,20 @@ body{
     
 }
 
+ /* .offcanvas{
+    background-color: black;
+    color: white;
+
+}  */
+
+
+
+/* .offcanvas-body {
+    
+    background-color: black;
+    color: white;
+}  */
+
 .offcanvas-body ul li{
     list-style: none;
     margin: 4px 0px;
@@ -27,10 +41,12 @@ body{
     color: black;
     font-size: 20px;
     font-weight: 600;
+    /* background-color: black; */
+    /* color: white;/ */
 }
 .offcanvas-body ul li a:hover{
     transition: 0.1s;
-    color: #657902;
+    color: #a0c6b9;
 }
 .containerElement{
     position: relative;
